@@ -3,21 +3,26 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Products </title>
+    <title>Products</title>
  
     <style>
         body {
             font-family: Arial, sans-serif;
             background-color: #f8f9fa;
+            background-image: url('https://www.example.com/your-background-image.jpg'); /* Replace with your image URL */
+            background-size: cover;
+            background-position: center;
             color: #333;
             text-align: center;
             margin: 0;
             padding: 20px;
         }
 
+      
         header {
-            color: #b3004e;
-            font-size: 15px;
+            color: #ff1493; 
+            font-size: 36px; 
+            font-weight: bold;
             margin-bottom: 20px;
         }
 
@@ -58,8 +63,10 @@
 </head>
 <body>
     
+    <!-- Moved header above products -->
+    <header>Products</header> 
+
     <div id="products"></div>
-    <header> Products </header>
     
     <script>
         $(document).ready(function() {
@@ -79,3 +86,4 @@
     </script>
 </body>
 </html>
+
